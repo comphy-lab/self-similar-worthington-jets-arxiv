@@ -1,0 +1,580 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{47}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {MacIntyre}(1972)}]{MacIntyre}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {MacIntyre}},\ }\bibfield  {title} {\bibinfo {title} {Flow patterns in
+  breaking bubbles},\ }\href {https://doi.org/10.1029/JC077i027p05211}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Geophys. Res.}\ }\textbf
+  {\bibinfo {volume} {77}},\ \bibinfo {pages} {5211} (\bibinfo {year}
+  {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bigg}\ and\ \citenamefont {Leck}(2008)}]{Bigg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Bigg}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Leck}},\
+  }\bibfield  {title} {\bibinfo {title} {The composition of fragments of
+  bubbles bursting at the ocean surface},\ }\href
+  {https://doi.org/10.1029/2007JD009078} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Geophys. Res.}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo
+  {pages} {D11209} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2017)\citenamefont {Wang},
+  \citenamefont {Deane}, \citenamefont {Moore}, \citenamefont {Ryder},
+  \citenamefont {Stokes}, \citenamefont {Beall}, \citenamefont {Collins},
+  \citenamefont {Santander}, \citenamefont {Burrows}, \citenamefont {Sultana},\
+  and\ \citenamefont {Prather}}]{PNAS}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {G.~B.}\ \bibnamefont {Deane}},
+  \bibinfo {author} {\bibfnamefont {K.~A.}\ \bibnamefont {Moore}}, \bibinfo
+  {author} {\bibfnamefont {O.~S.}\ \bibnamefont {Ryder}}, \bibinfo {author}
+  {\bibfnamefont {M.~D.}\ \bibnamefont {Stokes}}, \bibinfo {author}
+  {\bibfnamefont {C.~M.}\ \bibnamefont {Beall}}, \bibinfo {author}
+  {\bibfnamefont {D.~B.}\ \bibnamefont {Collins}}, \bibinfo {author}
+  {\bibfnamefont {M.~V.}\ \bibnamefont {Santander}}, \bibinfo {author}
+  {\bibfnamefont {S.~M.}\ \bibnamefont {Burrows}}, \bibinfo {author}
+  {\bibfnamefont {C.~M.}\ \bibnamefont {Sultana}},\ and\ \bibinfo {author}
+  {\bibfnamefont {K.~A.}\ \bibnamefont {Prather}},\ }\bibfield  {title}
+  {\bibinfo {title} {The role of jet and film drops in controlling the mixing
+  state of submicron sea spray aerosol particles},\ }\href
+  {https://doi.org/10.1073/pnas.1702420114} {\bibfield  {journal} {\bibinfo
+  {journal} {Proc. Natl. Acad. Sci. USA}\ }\textbf {\bibinfo {volume} {114}},\
+  \bibinfo {pages} {6978} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Deike}(2022)}]{AnnRevDeike}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Deike}},\ }\bibfield  {title} {\bibinfo {title} {Mass transfer at the
+  ocean–atmosphere interface: The role of wave breaking, droplets, and
+  bubbles},\ }\href {https://doi.org/10.1146/annurev-fluid-030121-014132}
+  {\bibfield  {journal} {\bibinfo  {journal} {Annu. Rev. Fluid Mech.}\ }\textbf
+  {\bibinfo {volume} {54}},\ \bibinfo {pages} {191} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gañán-Calvo}\ and\ \citenamefont
+  {López-Herrera}(2021)}]{JFMGanan}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Gañán-Calvo}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {López-Herrera}},\ }\bibfield  {title} {\bibinfo {title} {On the physics of
+  transient ejection from bubble bursting},\ }\href
+  {https://doi.org/10.1017/jfm.2021.791} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {929}},\ \bibinfo
+  {pages} {A12} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gañán-Calvo}(2023)}]{Gananfinespray}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Gañán-Calvo}},\ }\bibfield  {title} {\bibinfo {title} {The ocean fine
+  spray},\ }\href {https://doi.org/10.1063/5.0139151} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Fluids}\ }\textbf {\bibinfo {volume} {35}},\
+  \bibinfo {pages} {023317} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jiang}\ \emph {et~al.}(2022)\citenamefont {Jiang},
+  \citenamefont {Rotily}, \citenamefont {Villermaux},\ and\ \citenamefont
+  {Wang}}]{PNASWang}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Jiang}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Rotily}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Villermaux}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Wang}},\ }\bibfield
+  {title} {\bibinfo {title} {Submicron drops from flapping bursting bubbles},\
+  }\href {https://doi.org/10.1073/pnas.2112924119} {\bibfield  {journal}
+  {\bibinfo  {journal} {Proc. Natl. Acad. Sci. USA}\ }\textbf {\bibinfo
+  {volume} {119}},\ \bibinfo {pages} {e2112924119} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jiang}\ \emph {et~al.}(2024)\citenamefont {Jiang},
+  \citenamefont {Rotily}, \citenamefont {Villermaux},\ and\ \citenamefont
+  {Wang}}]{Abyss}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Jiang}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Rotily}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Villermaux}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Wang}},\ }\bibfield
+  {title} {\bibinfo {title} {Abyss aerosols: Drop production from underwater
+  bubble collisions},\ }\href {https://doi.org/10.1103/PhysRevLett.133.024001}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {133}},\ \bibinfo {pages} {024001} (\bibinfo {year}
+  {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Joung}\ and\ \citenamefont
+  {Buie}(2015)}]{RainPorous}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Joung}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Buie}},\
+  }\bibfield  {title} {\bibinfo {title} {Aerosol generation by raindrop impact
+  on soil},\ }\href {https://doi.org/10.1038/ncomms7083} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Commun.}\ }\textbf {\bibinfo {volume} {6}},\
+  \bibinfo {pages} {6083} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {S\'eon}\ and\ \citenamefont
+  {Liger-Belair}(2017)}]{SeonLigerBelair2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {S\'eon}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Liger-Belair}},\ }\bibfield  {title} {\bibinfo {title} {Effervescence in
+  champagne and sparkling wines: From bubble bursting to droplet evaporation},\
+  }\href {https://doi.org/10.1140/epjst/e2017-02679-6} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur. Phys. J. Spec. Top.}\ }\textbf {\bibinfo {volume}
+  {226}},\ \bibinfo {pages} {117} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bashkatov}\ \emph {et~al.}(2025)\citenamefont
+  {Bashkatov}, \citenamefont {B{\"u}rkle}, \citenamefont {Demirk{\i}r},
+  \citenamefont {Ding}, \citenamefont {Sanjay}, \citenamefont {Babich},
+  \citenamefont {Yang}, \citenamefont {Mutschke}, \citenamefont {Czarske},
+  \citenamefont {Lohse}, \citenamefont {Krug}, \citenamefont {B{\"u}ttner},\
+  and\ \citenamefont {Eckert}}]{Bashkatov2025}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Bashkatov}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {B{\"u}rkle}}, \bibinfo {author} {\bibfnamefont {{\c C}.}~\bibnamefont
+  {Demirk{\i}r}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Ding}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Sanjay}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Babich}}, \bibinfo {author}
+  {\bibfnamefont {X.}~\bibnamefont {Yang}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Mutschke}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Czarske}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Lohse}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Krug}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {B{\"u}ttner}},\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Eckert}},\ }\bibfield  {title} {\bibinfo {title} {Electrolyte droplet
+  spraying in {H2} bubbles during water electrolysis under normal and
+  microgravity conditions},\ }\href
+  {https://doi.org/10.1038/s41467-025-59762-7} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Commun.}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo
+  {pages} {4580} (\bibinfo {year} {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Duchemin}\ \emph {et~al.}(2002)\citenamefont
+  {Duchemin}, \citenamefont {Popinet}, \citenamefont {Josserand},\ and\
+  \citenamefont {Zaleski}}]{Duchemin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Duchemin}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Popinet}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Josserand}},\ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Zaleski}},\ }\bibfield
+  {title} {\bibinfo {title} {Jet formation in bubbles bursting at a free
+  surface},\ }\href {https://doi.org/10.1063/1.1494072} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Fluids}\ }\textbf {\bibinfo {volume} {14}},\
+  \bibinfo {pages} {3000} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Walls}\ \emph {et~al.}(2015)\citenamefont {Walls},
+  \citenamefont {H\'enaux},\ and\ \citenamefont {Bird}}]{Walls2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~L.~L.}\
+  \bibnamefont {Walls}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {H\'enaux}},\ and\ \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Bird}},\ }\bibfield  {title} {\bibinfo {title} {Jet drops from bursting
+  bubbles: How gravity and viscosity couple to inhibit droplet production},\
+  }\href {https://doi.org/10.1103/PhysRevE.92.021002} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {92}},\
+  \bibinfo {pages} {021002(R)} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Krishnan}\ \emph {et~al.}(2017)\citenamefont
+  {Krishnan}, \citenamefont {Hopfinger},\ and\ \citenamefont
+  {Puthenveettil}}]{krishnan2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Krishnan}}, \bibinfo {author} {\bibfnamefont {E.~J.}\ \bibnamefont
+  {Hopfinger}},\ and\ \bibinfo {author} {\bibfnamefont {B.~A.}\ \bibnamefont
+  {Puthenveettil}},\ }\bibfield  {title} {\bibinfo {title} {On the scaling of
+  jetting from bubble collapse at a liquid surface},\ }\href
+  {https://doi.org/10.1017/jfm.2017.214} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {822}},\ \bibinfo
+  {pages} {791} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brasz}\ \emph {et~al.}(2018)\citenamefont {Brasz},
+  \citenamefont {Bartlett}, \citenamefont {Walls}, \citenamefont {Flynn},
+  \citenamefont {Yu},\ and\ \citenamefont {Bird}}]{PRFBird}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Brasz}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Bartlett}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Walls}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Flynn}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Yu}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Bird}},\ }\bibfield  {title} {\bibinfo
+  {title} {Minimum size for the top jet drop from a bursting bubble},\ }\href
+  {https://doi.org/10.1103/PhysRevFluids.3.074001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Fluids}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {074001} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Deike}\ \emph {et~al.}(2018)\citenamefont {Deike},
+  \citenamefont {Ghabache}, \citenamefont {Liger-Belair}, \citenamefont {Das},
+  \citenamefont {Zaleski}, \citenamefont {Popinet},\ and\ \citenamefont
+  {Seon}}]{Deike}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Deike}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Ghabache}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Liger-Belair}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Das}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Zaleski}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Popinet}},\ and\ \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Seon}},\ }\bibfield  {title} {\bibinfo {title} {Dynamics
+  of jets produced by bursting bubbles},\ }\href
+  {https://doi.org/10.1103/PhysRevFluids.3.013603} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Fluids}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {013603} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berny}\ \emph {et~al.}(2020)\citenamefont {Berny},
+  \citenamefont {Deike}, \citenamefont {S\'eon},\ and\ \citenamefont
+  {Popinet}}]{Berny}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Berny}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Deike}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {S\'eon}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Popinet}},\ }\bibfield  {title}
+  {\bibinfo {title} {Role of all jet drops in mass transfer from bursting
+  bubbles},\ }\href {https://doi.org/10.1103/PhysRevFluids.5.033605} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev. Fluids}\ }\textbf {\bibinfo
+  {volume} {5}},\ \bibinfo {pages} {033605} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{Note1()}]{Note1}%
+  \BibitemOpen
+  \bibinfo {note} {In the following, lower-case letters indicate dimensionless
+  variables defined using $R$, the capillary velocity $V_c=\protect \sqrt
+  {\sigma /(\rho R)}$, and $\rho V_c^2$ as the characteristic values of length,
+  velocity and pressure. In the limit $Bo\rightarrow 0$, the pre-inception
+  bubble-bursting dynamics are controlled by $Oh$, or equivalently
+  $La=Oh^{-2}$; gas properties become relevant after ejection through the drag
+  exerted on the jet tip and emitted droplets \cite
+  {JFM2020,Tian2023}.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Gordillo}\ and\ \citenamefont
+  {Rodr\'iguez-Rodr\'iguez}(2019)}]{JFM2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Gordillo}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Rodr\'iguez-Rodr\'iguez}},\ }\bibfield  {title} {\bibinfo {title} {Capillary
+  waves control the ejection of bubble bursting jets},\ }\href
+  {https://doi.org/10.1017/jfm.2019.161} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {867}},\ \bibinfo
+  {pages} {557} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blanco-Rodr\'iguez}\ and\ \citenamefont
+  {Gordillo}(2020)}]{JFM2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~J.}\ \bibnamefont
+  {Blanco-Rodr\'iguez}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\
+  \bibnamefont {Gordillo}},\ }\bibfield  {title} {\bibinfo {title} {On the sea
+  spray aerosol originated from bubble bursting jets},\ }\href
+  {https://doi.org/10.1017/jfm.2019.1061} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {886}},\ \bibinfo
+  {pages} {R2} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zeff}\ \emph {et~al.}(2000)\citenamefont {Zeff},
+  \citenamefont {Kleber}, \citenamefont {Fineberg},\ and\ \citenamefont
+  {Lathrop}}]{Zeff}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Zeff}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Kleber}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Fineberg}},\ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Lathrop}},\ }\bibfield
+  {title} {\bibinfo {title} {Singularity dynamics in curvature collapse and jet
+  eruption on a fluid surface},\ }\href {https://doi.org/10.1038/35000151}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {403}},\ \bibinfo {pages} {401} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sierou}\ and\ \citenamefont {Lister}(2004)}]{Sierou}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sierou}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Lister}},\ }\bibfield  {title} {\bibinfo {title} {Self-similar recoil of
+  inviscid drops},\ }\href {https://doi.org/10.1063/1.1689031} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Fluids}\ }\textbf {\bibinfo {volume}
+  {16}},\ \bibinfo {pages} {1379} (\bibinfo {year} {2004})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Lai}\ \emph {et~al.}(2018)\citenamefont {Lai},
+  \citenamefont {Eggers},\ and\ \citenamefont {Deike}}]{PRLEggers}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.-Y.}\ \bibnamefont
+  {Lai}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Eggers}},\ and\
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Deike}},\ }\bibfield
+  {title} {\bibinfo {title} {Bubble bursting: Universal cavity and jet
+  profiles},\ }\href {https://doi.org/10.1103/PhysRevLett.121.144501}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {121}},\ \bibinfo {pages} {144501} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cattaneo}\ \emph {et~al.}(2025)\citenamefont
+  {Cattaneo}, \citenamefont {Presse},\ and\ \citenamefont
+  {Supponen}}]{PRLCattaneo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Cattaneo}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Presse}},\
+  and\ \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Supponen}},\
+  }\bibfield  {title} {\bibinfo {title} {Faraday wave singularities trigger
+  microbubble jetting},\ }\href {https://doi.org/10.1103/7c4p-y9jr} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {135}},\ \bibinfo {pages} {204002} (\bibinfo {year}
+  {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fan}\ \emph {et~al.}(2024)\citenamefont {Fan},
+  \citenamefont {Bu\ss{}mann}, \citenamefont {Reuter}, \citenamefont {Bao},
+  \citenamefont {Adami}, \citenamefont {Gordillo}, \citenamefont {Adams},\ and\
+  \citenamefont {Ohl}}]{PRL2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Fan}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bu\ss{}mann}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Reuter}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Bao}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Adami}}, \bibinfo {author} {\bibfnamefont
+  {J.~M.}\ \bibnamefont {Gordillo}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Adams}},\ and\ \bibinfo {author} {\bibfnamefont {C.-D.}\
+  \bibnamefont {Ohl}},\ }\bibfield  {title} {\bibinfo {title} {Amplification of
+  supersonic microjets by resonant inertial cavitation-bubble pair},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.132.104004} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {132}},\
+  \bibinfo {pages} {104004} (\bibinfo {year} {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yang}\ \emph {et~al.}(2026)\citenamefont {Yang},
+  \citenamefont {Sanjay}, \citenamefont {Constante-Amores},\ and\ \citenamefont
+  {Feng}}]{YangShallow2026}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Yang}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Sanjay}},
+  \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont {Constante-Amores}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Feng}},\ }\href
+  {https://doi.org/10.48550/arXiv.2606.28609} {\bibinfo {title}
+  {Confinement-induced suppression of jet drop size by bubble bursting in
+  shallow liquids}} (\bibinfo {year} {2026}),\ \Eprint
+  {https://arxiv.org/abs/2606.28609} {arXiv:2606.28609 [physics.flu-dyn]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gordillo}\ and\ \citenamefont
+  {Blanco-Rodr\'iguez}(2023)}]{PRF2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Gordillo}}\ and\ \bibinfo {author} {\bibfnamefont {F.~J.}\ \bibnamefont
+  {Blanco-Rodr\'iguez}},\ }\bibfield  {title} {\bibinfo {title} {Theory of the
+  jets ejected after the inertial collapse of cavities with applications to
+  bubble bursting jets},\ }\href
+  {https://doi.org/10.1103/PhysRevFluids.8.073606} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Fluids}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {073606} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{Note2()}]{Note2}%
+  \BibitemOpen
+  \bibinfo {note} {The spatial region in which streamlines are horizontal in
+  Fig.~4(b) of Ref.~\cite {PRF2023} corresponds to the
+  far-field boundary condition in Eq. (\ref {qinfty}): when the vertical
+  position of the base of the jet reaches this region, $r_j\propto \tau
+  ^{1/2}$, $We_j\propto \tau ^{-1/2}\propto r^{-1}_j$ for all values of
+  $Oh$, as shown in \cite {PRF2023}.}\BibitemShut {Stop}%
+\bibitem [{Note3()}]{Note3}%
+  \BibitemOpen
+  \bibinfo {note} {$\phi =0$ is, by virtue of the Euler-Bernoulli equation, the
+  far-field boundary condition for the velocity potential at the interface
+  describing the sudden impact of a solid on an interface \cite {wagner1932}
+  and also describing the type of Worthington jets issued as a consequence of
+  the collapse of slender axisymmetric cavities \cite {PRF2023}.}\BibitemShut
+  {Stop}%
+\bibitem [{\citenamefont {Taylor}(1964)}]{Taylor}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~I.}\ \bibnamefont
+  {Taylor}},\ }\bibfield  {title} {\bibinfo {title} {Disintegration of water
+  drops in an electric field},\ }\href {https://doi.org/10.1098/rspa.1964.0151}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proc. R. Soc. Lond. A}\ }\textbf
+  {\bibinfo {volume} {280}},\ \bibinfo {pages} {383} (\bibinfo {year}
+  {1964})}\BibitemShut {NoStop}%
+\bibitem [{Note4()}]{Note4}%
+  \BibitemOpen
+  \bibinfo {note} {$q_j=v_j r_j\propto r_j^{(2\alpha (\beta
+  )-1)/\alpha (\beta )}\rightarrow v_j\propto \kappa ^{(1-\alpha (\beta
+  ))/\alpha (\beta )}$ with $\kappa \propto 1/r_j$; hence, the maximum
+  achievable velocity $v_M$ when jets are issued from a conical bubble with a
+  rounded tip of maximum curvature $\kappa _{max}$ is $v_M\propto \kappa
+  _{max}^{(1-\alpha (\beta ))/\alpha (\beta )}$, a prediction which is similar
+  to the expression for the maximum velocity of jets emitted by cavitation
+  bubbles near a wall, see \cite {AMZhang2026} and references
+  therein}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Popinet}(2009)}]{Popinet2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Popinet}},\ }\bibfield  {title} {\bibinfo {title} {An accurate adaptive
+  solver for surface-tension-driven interfacial flows},\ }\href
+  {https://doi.org/10.1016/j.jcp.2009.04.042} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Comput. Phys.}\ }\textbf {\bibinfo {volume} {228}},\ \bibinfo
+  {pages} {5838} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Popinet}(2015)}]{Popinet2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Popinet}},\ }\bibfield  {title} {\bibinfo {title} {A quadtree-adaptive
+  multigrid solver for the {S}erre--{G}reen--{N}aghdi equations},\ }\href
+  {https://doi.org/10.1016/j.jcp.2015.09.009} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Comput. Phys.}\ }\textbf {\bibinfo {volume} {302}},\ \bibinfo
+  {pages} {336} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sanjay}\ \emph {et~al.}(2021)\citenamefont {Sanjay},
+  \citenamefont {Lohse},\ and\ \citenamefont {Jalaal}}]{Vatsal2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Sanjay}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Lohse}},\ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Jalaal}},\ }\bibfield
+  {title} {\bibinfo {title} {Bursting bubble in a viscoplastic medium},\ }\href
+  {https://doi.org/10.1017/jfm.2021.489} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {922}},\ \bibinfo
+  {pages} {A2} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{Note5()}]{Note5}%
+  \BibitemOpen
+  \bibinfo {note} {See \cite
+  {Thoroddsen_18,Thoroddsen_2020,Tian2023}, where experimental exponents
+  $\alpha <2/3$ are also reported.}\BibitemShut {Stop}%
+\bibitem [{Note6()}]{Note6}%
+  \BibitemOpen
+  \bibinfo {note} {The analogous expressions for $r_m$ and $v_M$ for the case
+  in which the incipient jet is produced by the inertial collapse of a
+  parabolic cavity are given in equation (29) of \cite {PRF2023}.}\BibitemShut
+  {Stop}%
+\bibitem [{\citenamefont {Sanjay}(2026)}]{BurstingBubbleCode}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Sanjay}},\ }\href@noop {} {\bibinfo {title} {Code repository: bursting
+  bubble simulations}},\ \bibinfo {howpublished}
+  {\url{https://github.com/comphy-lab/Bursting-Bubble}} (\bibinfo {year}
+  {2026}),\ \bibinfo {note} {last accessed: 7 July 2026}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gekle}\ and\ \citenamefont
+  {Gordillo}(2010)}]{JFM2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Gekle}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Gordillo}},\ }\bibfield  {title} {\bibinfo {title} {Generation and breakup
+  of worthington jets after cavity collapse. part 1. jet formation},\ }\href
+  {https://doi.org/10.1017/S0022112010003526} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {663}},\ \bibinfo
+  {pages} {293} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gordillo}\ and\ \citenamefont
+  {Gekle}(2010)}]{JFM2010b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Gordillo}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Gekle}},\ }\bibfield  {title} {\bibinfo {title} {Generation and breakup of
+  worthington jets after cavity collapse. part 2. tip breakup of stretched
+  jets},\ }\href {https://doi.org/10.1017/S0022112010003538} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume}
+  {663}},\ \bibinfo {pages} {331} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Eshima}\ \emph {et~al.}(2025)\citenamefont {Eshima},
+  \citenamefont {Aur\'egan}, \citenamefont {Farsoiya}, \citenamefont {Popinet},
+  \citenamefont {Stone},\ and\ \citenamefont {Deike}}]{Eshima2026}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Eshima}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Aur\'egan}},
+  \bibinfo {author} {\bibfnamefont {P.~K.}\ \bibnamefont {Farsoiya}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Popinet}}, \bibinfo {author}
+  {\bibfnamefont {H.~A.}\ \bibnamefont {Stone}},\ and\ \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Deike}},\ }\bibfield  {title} {\bibinfo
+  {title} {Size amplification of jet drops due to insoluble surfactants},\
+  }\href {https://doi.org/10.1103/t9k3-dqyc} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Fluids}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo
+  {pages} {123604} (\bibinfo {year} {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rodríguez-Aparicio}\ \emph
+  {et~al.}(2026)\citenamefont {Rodríguez-Aparicio}, \citenamefont
+  {Cebrián-García}, \citenamefont {Vega}, \citenamefont {Montanero},\ and\
+  \citenamefont {Cabezas}}]{JFM2026}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Rodríguez-Aparicio}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Cebrián-García}}, \bibinfo {author} {\bibfnamefont {E.~J.}\ \bibnamefont
+  {Vega}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Montanero}},\ and\ \bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont
+  {Cabezas}},\ }\bibfield  {title} {\bibinfo {title} {Effect of surface-active
+  contaminants on bubble bursting yielding the smallest first-emitted
+  droplet},\ }\href {https://doi.org/10.1017/jfm.2026.11412} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume}
+  {1032}},\ \bibinfo {pages} {A49} (\bibinfo {year} {2026})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Dubitsky}\ \emph {et~al.}(2023)\citenamefont
+  {Dubitsky}, \citenamefont {McRae},\ and\ \citenamefont {Bird}}]{PRLBird}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Dubitsky}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {McRae}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont {Bird}},\
+  }\bibfield  {title} {\bibinfo {title} {Enrichment of scavenged particles in
+  jet drops determined by bubble size and particle position},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.130.054001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {130}},\
+  \bibinfo {pages} {054001} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tian}\ \emph {et~al.}(2023)\citenamefont {Tian},
+  \citenamefont {Yang},\ and\ \citenamefont {Thoroddsen}}]{Tian2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Tian}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Yang}},\ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Thoroddsen}},\ }\bibfield
+   {title} {\bibinfo {title} {Conical focusing: mechanism for singular jetting
+  from collapsing drop-impact craters},\ }\href
+  {https://doi.org/10.1017/jfm.2022.1085} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {958}},\ \bibinfo
+  {pages} {R1} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wagner}(1932)}]{wagner1932}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Wagner}},\ }\bibfield  {title} {\bibinfo {title} {{\"U}ber sto{\ss}-und
+  gleitvorg{\"a}nge an der oberfl{\"a}che von fl{\"u}ssigkeiten},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Z. Angew. Math. Mech.}\
+  }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages} {193} (\bibinfo {year}
+  {1932})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhou}\ \emph {et~al.}(2026)\citenamefont {Zhou},
+  \citenamefont {Cui}, \citenamefont {Zhang}, \citenamefont {Liu},\ and\
+  \citenamefont {Li}}]{AMZhang2026}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Zhou}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Cui}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Liu}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Li}},\ }\bibfield  {title} {\bibinfo
+  {title} {Axial jet and pinch-off scalings in attached buoyant bubbles},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Sci. China Phys.
+  Mech. Astron.}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo {pages} {284712}
+  (\bibinfo {year} {2026})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thoroddsen}\ \emph {et~al.}(2018)\citenamefont
+  {Thoroddsen}, \citenamefont {Takehara}, \citenamefont {Nguyen},\ and\
+  \citenamefont {Etoh}}]{Thoroddsen_18}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont
+  {Thoroddsen}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Takehara}}, \bibinfo {author} {\bibfnamefont {H.~D.}\ \bibnamefont
+  {Nguyen}},\ and\ \bibinfo {author} {\bibfnamefont {T.~G.}\ \bibnamefont
+  {Etoh}},\ }\bibfield  {title} {\bibinfo {title} {Singular jets during the
+  collapse of drop-impact craters},\ }\href
+  {https://doi.org/10.1017/jfm.2018.435} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {848}},\ \bibinfo
+  {pages} {R3} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yang}\ \emph {et~al.}(2020)\citenamefont {Yang},
+  \citenamefont {Tian},\ and\ \citenamefont {Thoroddsen}}]{Thoroddsen_2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.~Q.}\ \bibnamefont
+  {Yang}}, \bibinfo {author} {\bibfnamefont {Y.~S.}\ \bibnamefont {Tian}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont {Thoroddsen}},\
+  }\bibfield  {title} {\bibinfo {title} {Multitude of dimple shapes can produce
+  singular jets during the collapse of immiscible drop-impact craters},\ }\href
+  {https://doi.org/10.1017/jfm.2020.694} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {904}},\ \bibinfo
+  {pages} {A19} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\end{thebibliography}%
